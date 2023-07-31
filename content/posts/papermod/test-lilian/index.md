@@ -186,55 +186,6 @@ I believe many of you have watched or heard of the games between AlphaGo and pro
 <main class="main">
 
 <article class="post-single">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
-
-        <div class="inner"><ul>
-                <li>
-                    <a href="#why-does-deep-learning-work-now" aria-label="Why Does Deep Learning Work Now?">Why Does Deep Learning Work Now?</a></li>
-                <li>
-                    <a href="#deep-learning-models" aria-label="Deep Learning Models">Deep Learning Models</a><ul>
-                        
-                <li>
-                    <a href="#convolutional-neural-network" aria-label="Convolutional Neural Network">Convolutional Neural Network</a></li>
-                <li>
-                    <a href="#recurrent-neural-network" aria-label="Recurrent Neural Network">Recurrent Neural Network</a></li>
-                <li>
-                    <a href="#rnn-sequence-to-sequence-model" aria-label="RNN: Sequence-to-Sequence Model">RNN: Sequence-to-Sequence Model</a></li>
-                <li>
-                    <a href="#autoencoders" aria-label="Autoencoders">Autoencoders</a></li></ul>
-                </li>
-                <li>
-                    <a href="#reinforcement-deep-learning" aria-label="Reinforcement (Deep) Learning">Reinforcement (Deep) Learning</a><ul>
-                        
-                <li>
-                    <a href="#generative-adversarial-network" aria-label="Generative Adversarial Network">Generative Adversarial Network</a></li></ul>
-                </li>
-                <li>
-                    <a href="#toolkits-and-libraries" aria-label="Toolkits and Libraries">Toolkits and Libraries</a></li>
-                <li>
-                    <a href="#how-to-learn" aria-label="How to Learn?">How to Learn?</a><ul>
-                        <ul>
-                        
-                <li>
-                    <a href="#useful-resources" aria-label="Useful resources">Useful resources</a></li>
-                <li>
-                    <a href="#blog-posts-mentioned" aria-label="Blog posts mentioned">Blog posts mentioned</a></li>
-                <li>
-                    <a href="#interesting-blogs-worthy-of-checking" aria-label="Interesting blogs worthy of checking">Interesting blogs worthy of checking</a></li>
-                <li>
-                    <a href="#papers-mentioned" aria-label="Papers mentioned">Papers mentioned</a>
-                </li>
-            </ul>
-            </ul>
-            </li>
-            </ul>
-        </div>
-    </details>
-</div>
-
   <div class="post-content"><!-- Starting earlier this year, I grew a strong curiosity of deep learning and spent some time reading about this field. To document what I’ve learned and to provide some interesting pointers to people with similar interests, I wrote this overview of deep learning models and their applications. -->
 <p><span style="color: #aaaaaa;">(The post was originated from my talk for <a href="http://wimlds.org/chapters/about-bay-area/">WiMLDS x Fintech meetup</a> hosted by <a href="www.affirm.com">Affirm</a>.)</span></p>
 <p>I believe many of you have watched or heard of the <a href="https://youtu.be/vFr3K2DORc8">games</a> between AlphaGo and professional Go player <a href="https://en.wikipedia.org/wiki/Lee_Sedol">Lee Sedol</a> in 2016. Lee has the highest rank of nine dan and many world championships. No doubt, he is one of the best Go players in the world, but he <a href="https://www.scientificamerican.com/article/how-the-computer-beat-the-go-master/">lost by 1-4</a> in this series versus AlphaGo. Before this, Go was considered to be an intractable game for computers to master, as its simple rules lay out an exponential number of variations in the board positions, many more than what in Chess. This event surely highlighted 2016 as a big year for AI. Because of AlphaGo, much attention has been attracted to the progress of AI.</p>
